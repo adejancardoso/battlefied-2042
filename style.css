@@ -1,0 +1,152 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav a {
+    background-image: url("imagens/0x1900-000000-80-0-0.jpg");
+    text-decoration: none;
+    color: #ad5858;
+    padding: 20px 20px;
+    display: block;
+    font-size: 20px;
+    font-weight: normal;
+    width: 250px;
+    height: 80px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    border-radius: 0px;
+    margin: 5px;
+    box-shadow: 10px 10px 0px rgba(197, 11, 11, 0.2);
+    font-family: "Rubik Glitch", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #d6bdbd;
+    box-shadow: 12px 12px 0px rgba(0, 0, 0, 0.2);
+}
+body {
+    background-image: url("imagens/Battlefield2042_69a5cb2c-0c38-42c4-b169-197864889d44.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;}
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0px;
+    margin: 20px auto;
+    width: 100%;
+    margin-top: 160px;
+    color: #884608;
+    font-family: "Rubik Marker Hatch", system-ui;
+  font-weight: 400;
+  font-style: normal;
+   
+}
+
+header:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+}
+section {
+    color: #884608;
+    margin: 20px auto;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 0px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    font-family: "Rubik Marker Hatch", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    transition: color 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    
+}
+section:hover {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+iframe {
+    width: 100%;
+    height: 500px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+img {
+    justify-content: center;
+    max-width: 450px;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;}
+img:hover {
+    transform: scale(1.01);
+    transition: transform 0.3s ease;
+    
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 0px;
+    margin: 20px auto;
+    width: 100%;
+    color: #884608;
+    font-family: "Rubik Marker Hatch", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+footer:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+}
+
+.bloco {
+  display: flex;
+  align-items: center; 
+  gap: 20px; 
+}
+
+.bloco img {
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+.bloco p {
+    font-size: 18px;
+    color: #884608;
+    font-family: "Rubik Marker Hatch", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    transition: color 0.3s ease; 
+    }
+
+.bloco:hover img {
+  transform: scale(1.02); 
+  transition: transform 0.3s ease; 
+}
+.bloco:hover p {
+  color: #fff;
+}
+
+
